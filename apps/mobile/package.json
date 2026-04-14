@@ -1,0 +1,40 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-resume/shared": "workspace:*",
+    "@react-native-firebase/analytics": "^21.13.0",
+    "@react-native-firebase/app": "^21.13.0",
+    "@tanstack/react-query": "^5.68.0",
+    "expo": "~53.0.0",
+    "expo-auth-session": "~6.2.0",
+    "expo-blur": "~14.1.4",
+    "expo-document-picker": "~13.1.4",
+    "expo-linear-gradient": "~14.1.4",
+    "expo-router": "~5.0.2",
+    "expo-secure-store": "~14.1.4",
+    "expo-web-browser": "~14.1.4",
+    "firebase": "^11.3.1",
+    "lucide-react-native": "^0.511.0",
+    "react": "^19.0.0",
+    "react-native": "0.79.0",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-purchases": "^8.9.4",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "typescript": "^5.8.2"
+  }
+}
