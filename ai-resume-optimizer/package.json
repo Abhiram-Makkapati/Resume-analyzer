@@ -1,0 +1,14 @@
+{
+  "name": "ai-resume-optimizer",
+  "private": true,
+  "packageManager": "pnpm@10.7.0",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:mobile": "pnpm --filter mobile start",
+    "dev:extension": "pnpm --filter extension dev",
+    "dev:functions": "pnpm --filter firebase-functions build --watch",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

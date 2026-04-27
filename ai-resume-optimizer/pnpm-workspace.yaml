@@ -1,0 +1,4 @@
+packages:
+  - apps/*
+  - firebase/functions
+  - packages/*
